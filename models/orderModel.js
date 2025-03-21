@@ -5,7 +5,7 @@ const ordersSchema = new mongoose.Schema({
 foods:[
     {
         type:mongoose.Schema.Types.ObjectId,
-        red:'Foods'
+        ref:'Foods'
     
     }
 ],
